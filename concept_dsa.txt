@@ -1,0 +1,59 @@
+DSA Notes
+============================================================================
+Datastructures: They are are different ways of organising the data on your 
+computer, that can be used effectively.
+All applications deal with data. Before processing the data we have to 
+organise the data in a certain way, that makes the process efficient.
+Performance and efficiency of application depends on how the data is
+structured, organised and grouped together. 
+
+Algorithm: 
+Set of rules for a computer to perform a task.
+
+Types of Datastructures:
+- Premitive 
+	They are basic datatypes, cannot be broken in to smaller dtypes.
+	Integer, Float, String, Boolean
+- NonPremitive
+	They are complex datastructures, can be broken into samller dtypes.
+   - linear (list, tuple, array, linkedlist, stack, queue)
+	Elements are arranged in sequential order.
+   - non linear (set, dictionary, Tree, Graph)
+	Elements are ordered in hierarical order to represent certain 
+		relationship.
+
+Types of Algorithms:
+- Sorting (bubble sort, insertion sort)
+- search (linear, binary search )
+- Graph (depth, breadth, dijktras algorithm)
+- Dynamic programming algorithms
+- Divide and Conquer Algorithms
+- Recursive
+
+
+What is BigO ?
+The metric used to measure the efficiency of the code is called BigO.
+It is calculated by identifying the number of operations performed.
+
+Notations: 
+ bestcase Omega Ω
+ averagecase thetha θ
+ worstcase bigO O
+
+Run time complxities: 
+O(1): constant time compelxity
+O(n): Linear time complexity (As the input grows, number of operations also
+	grow.)
+O(n^2): Quadratic time complexity
+O(logn): logarithmic complexity.  it is very edficient than O(n^2) and O(n)
+
+Space complexity:
+It measure how the memory space consumed as he input size grows.
+
+
+
+
+
+
+
+
