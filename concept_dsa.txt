@@ -153,9 +153,33 @@ reserves certain memory when creating array.
 
 
 
+List: 
+A list is a datastructrure that holds oredered collection of items. 
+
+List vs Array
+similarity
+Both datastructures are mutable.
+Both are indexed 
+
+Difference
+Arrays are more optimised for arthimetic operations.
+Lists elements can be different.
 
 
-
-
-
-
+Operations on list
+indexing 
+nested list 
+unpacking of list 
+slicing 
+lists are mutable 
+.append()
+.extend([])
+seq1 + seq2
+.insert()
+del[seq[2]]
+del[seq]
+.clear()
+.index()
+.count()
+.sort()
+.reverse()

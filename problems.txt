@@ -1,0 +1,58 @@
+# Q1. Second Largest Element in an array
+    """
+    Solution: 
+    The function finds the second largest number by keeping track of the top two values while looping through the array. It updates firstmax and secmax accordingly and returns secmax.
+    """
+
+# Q2. Check if an Array is Sorted
+    """
+    solution: 
+    The function uses a single-pointer traversal, iterating through the array from the second element. It checks if the previous element is greater than the current one. If any such case is found, it returns 0; otherwise, it returns 1, indicating the array is sorted.
+    """
+
+# Q3. Remove Duplicates Sorted Array
+    """
+    Optimal Solution:
+    This function uses a two-pointer approach to remove duplicates in a sorted list in-place. The i pointer tracks unique elements, while j iterates through the list, updating i+1 when a new unique element is found
+
+    """
+
+# Q4. Left Rotate the Array by One
+    """
+    solution: 
+    The first element is stored separately, all other elements are shifted left by one position, and the stored element is placed at the end to complete the rotation.
+    """
+
+# Q5. Left rotate an array by D places
+    """
+    solution: left
+    The first k elements are stored separately, the remaining elements are shifted left, and the stored elements are placed at the end. If k exceeds the array length, it is adjusted using modulo.
+    """
+    """  right
+    solution: 
+    The array is rotated by extracting the last k elements, shifting the remaining elements to the right, and placing the extracted elements at the beginning. If k exceeds the array length, it is adjusted using modulo.
+    """
+    """
+    optimal solution: Using no extra space
+    It reverses the first k elements. It reverses the remaining elements. It reverses the entire array to get the final rotated result.
+    """
+
+# Q6. Reverse array
+    """
+    solution:
+    The function uses a two-pointer approach, swapping the first and last elements while moving toward the center. It iterates only up to half the array to ensure all elements are reversed in-place. This efficiently reverses the array with O(n) time complexity.
+    """
+
+# Q7. Move Zero's to End
+    """
+    Optimal Solution:
+    Two pointer approach:
+    Identify the first 0 in sequence. pointer j will point to this.
+    Identify next non zero number after j ponter and swap the numbers. Incremnt j and i. 
+    """
+
+# Q8. Union of 2 Sorted with Duplicates
+    """
+    solution:
+    This code merges two sorted lists a and b into a single sorted list union without duplicates, using two pointers i and j. It ensures elements are added only if they’re not already the last inserted, handling remaining elements from either list after one is exhausted.
+    """
